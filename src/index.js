@@ -4,6 +4,7 @@ import ReactDOM from "react-dom";
 import Navigation from "./Navigation";
 import Header from "./Header";
 import Skills from "./Skills";
+import Portfolio from "./Portfolio";
 import * as serviceWorker from "./serviceWorker";
 
 class App extends Component {
@@ -12,6 +13,7 @@ class App extends Component {
       <div>
         <Navigation logoTitle="React Portfolio" />
         <Header title="Hyeyoon Cho" button="Find Out More" />
+        <Portfolio />
         <Skills />
       </div>
     );

@@ -2,8 +2,8 @@
   font-size: 16px;
   text-transform: uppercase;
   color: black;
-  margin: 0;
-  padding: 0;
+  margin-bottom: 48px;
+  margin-top: 0;
 }
 
 .skills {
@@ -16,8 +16,9 @@
 .skills h2 {
   font-size: 48px;
   color: black;
-  margin-bottom: 48px;
-  margin-top: 0;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5px;
 }
 
 .chart {
