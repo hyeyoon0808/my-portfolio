@@ -9,8 +9,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Navigation logoTitle="Hyeyoon Cho" />
-        <Header />
+        <Navigation logoTitle="React Portfolio" />
+        <Header title="Hyeyoon Cho" button="Find Out More" />
       </div>
     );
   }

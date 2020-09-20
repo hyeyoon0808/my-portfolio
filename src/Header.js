@@ -1,14 +1,15 @@
 import React, { Component } from "react";
-import Background from "./img/background2.jpg";
+import "./Header.css";
 
-const myStyles = {
-  backgroundImage: "url('./img/background2.jpg')",
-  height: "300px",
-  backgroundSize: "cover",
-};
 class Header extends Component {
   render() {
-    return <header style={myStyles}></header>;
+    return (
+      <header className="myStyles">
+        <h1>{this.props.title}</h1>
+        <p></p>
+        <a href="#button">{this.props.button}</a>
+      </header>
+    );
   }
 }
 
