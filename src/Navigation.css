@@ -6,7 +6,7 @@
 nav {
   display: flex;
   justify-content: space-between;
-  background-color: #1d809f;
+  background-color: black;
   align-items: center;
   padding-right: 20px;
 }
