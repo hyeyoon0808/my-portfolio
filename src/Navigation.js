@@ -4,7 +4,7 @@ import "./Navigation.css";
 
 class Navigation extends Component {
   render() {
-    const sections = ["Home", "About", "Services", "Portfolio", "contact"];
+    const sections = ["Home", "Portfolio", "Skills", "contact"];
     const navLinks = sections.map((section) => {
       return (
         <li>

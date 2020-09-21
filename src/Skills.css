@@ -1,21 +1,21 @@
-.skills h3 {
-  font-size: 16px;
-  text-transform: uppercase;
-  color: black;
-  margin-bottom: 48px;
-  margin-top: 0;
-}
-
 .skills {
-  background-color: white;
+  background-color: #222c32;
   padding-top: 120px;
   padding-bottom: 120px;
   text-align: center;
 }
 
+.skills h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 48px;
+  margin-top: 0;
+}
+
 .skills h2 {
   font-size: 48px;
-  color: black;
+  color: white;
   margin: 0;
   padding: 0;
   margin-bottom: 5px;

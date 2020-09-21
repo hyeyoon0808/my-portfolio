@@ -1,15 +1,14 @@
-import React from "react";
-import "./App.css";
+import React, { Component } from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1 className="App-title">Welcome</h1>
-      </header>
-      <p className="App-intro">This is Hyeyoon</p>
-    </div>
-  );
+class App extends Component {
+  componentDidMount() {
+    fetch("project")
+      .then((res) => res.json())
+      .then((data) => this.setState({ id: data.id }));
+  }
+  render() {
+    return <div className="App"></div>;
+  }
 }
 
 export default App;
